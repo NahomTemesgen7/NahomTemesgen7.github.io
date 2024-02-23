@@ -1095,6 +1095,6 @@ section .container {
     transform: translateX(-50%);
   }
 }
-.portfolio-wrap22 , a:hover{
+.portfolio-wrap22 ,a , img:hover{
 color: #010e1b41;
 }
