@@ -774,12 +774,12 @@ section .container {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: rgba(0, 0, 0, 0.6);
+  /* background: rgba(0, 0, 0, 0.6); */
 }
 
 .portfolio .portfolio-wrap::before {
-  content: "";
-  background: rgba(0, 0, 0, 0.6);
+  /* content: "";
+  background: rgba(0, 0, 0, 0.6); */
   position: absolute;
   left: 30px;
   right: 30px;
@@ -807,7 +807,7 @@ section .container {
 }
 
 .portfolio .portfolio-wrap .portfolio-info::before {
-  display: block;
+  display: inline-block;
   /* content: ""; */
   width: 100%;
   /* width: 48px;
