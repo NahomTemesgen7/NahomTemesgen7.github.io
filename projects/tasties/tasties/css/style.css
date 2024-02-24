@@ -470,8 +470,11 @@ ckground: #000 url(../img/Best\ 1\ Coffee\ in\ Atlanta\ \(Atlanta\ City\ Guide\)
 @media screen and (max-width: 992px) {
   #fh5co-about .img-wrap img {
     max-width: 100%;
+    margin-right: 0;
+    margin-left: 0;
   }
-}
+  }
+
 
 #fh5co-featured-menu .fh5co-heading, #fh5co-gallery .fh5co-heading, #fh5co-reservation-form .fh5co-heading {
   margin-bottom: 170px;
