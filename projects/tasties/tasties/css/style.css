@@ -109,14 +109,12 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 .fh5co-nav.scrolled {
-  /* background: #000 url(../images/broken_noise.png) repeat; */
-ckground: #000 url(../img/Best\ 1\ Coffee\ in\ Atlanta\ \(Atlanta\ City\ Guide\).jpgCoffee\ in\ Atlanta\ \(Atlanta\ City\ Guide\).jpg) repeat;
+  background: #000 url(../images/broken_noise.png) repeat;
   top: -82px;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .fh5co-nav.scrolled {
-    /* background: #000 url(../images/broken_noise.png) repeat; */
-    background: #000 url(../img/Best\ Coffee\ in\ Atlanta\ \(Atlanta\ City\ Guide\).jpg) repeat;
+    background: #000 url(../images/broken_noise.png) repeat;
   }
 }
 @media screen and (max-width: 480px) {
