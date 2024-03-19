@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/nahomtwm/
+    - export DEPLOYPATH=/home/nahomtwm/public_html/
     - /bin/cp -R * $DEPLOYPATH
