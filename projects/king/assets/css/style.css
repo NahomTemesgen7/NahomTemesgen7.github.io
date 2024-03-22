@@ -949,7 +949,7 @@ ul.tags li a:hover{
 }
 
 b{
-	  font-weight: 300;
+	font-weight: 300;
 }
 
 b i:last-child {
@@ -957,10 +957,10 @@ b i:last-child {
 }
 
 .box-intro h1{
-		font-size: 40px;
-	  margin-top: 35px;
-	  color: #333;
-	  letter-spacing: 40px;
+	font-size: 40px;
+    margin-top: 35px;
+    color: #333;
+    letter-spacing: 40px;
 		font-weight: 700;
 }
 
