@@ -7,24 +7,24 @@ jQuery(document).ready(function($){
 		var headerHeight = $('.box-header').height();
 		$(window).on('scroll',
 		{
-	        previousTop: 0
-	    }, 
-	    function () {
-		    var currentTop = $(window).scrollTop();
-		    //check if user is scrolling up
-		    if (currentTop < this.previousTop ) {
-		    	//if scrolling up...
-		    	if (currentTop > 0 && $('.box-header').hasClass('is-fixed')) {
-		    		$('.box-header').addClass('is-visible');
-		    	} else {
-		    		$('.box-header').removeClass('is-visible is-fixed');
-		    	}
-		    } else {
-		    	//if scrolling down...
-		    	$('.box-header').removeClass('is-visible');
-		    	if( currentTop > headerHeight && !$('.box-header').hasClass('is-fixed')) $('.box-header').addClass('is-fixed');
-		    }
-		    this.previousTop = currentTop;
+		previousTop: 0
+	}, 
+	function () {
+		var currentTop = $(window).scrollTop();
+		//check if user is scrolling up
+		if (currentTop < this.previousTop ) {
+			//if scrolling up...
+			if (currentTop > 0 && $('.box-header').hasClass('is-fixed')) {
+				$('.box-header').addClass('is-visible');
+			} else {
+				$('.box-header').removeClass('is-visible is-fixed');
+			}
+		} else {
+			//if scrolling down...
+			$('.box-header').removeClass('is-visible');
+			if( currentTop > headerHeight && !$('.box-header').hasClass('is-fixed')) $('.box-header').addClass('is-fixed');
+		}
+		this.previousTop = currentTop;
 		});
 	}
 
